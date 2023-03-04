@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.one{
+    background-image: url(../Fondodepan.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.cabecera{
+    background: linear-gradient(180deg, (0,0,0),(0,0,0));
+    width: 100%;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.svg-estilo{
+    width: 15%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 3px 2px gray;
+}
+a:hover{
+    color: blue;
+    border-bottom: 2px solid papayawhip;
+}
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 40px;
+    width: 40%;
+}
+.link{
+    color: white;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner-textos{
+    color: white;
+    width: 80%;
+    padding: 20px;
+}
+.textologo{
+    color: white;
+}
+
+
+.two{
+display: flex;
+background-color: beige;
+}
+.numero{
+    display: flex;
+    align-items:center ;
+}
+hr{
+    width: 200px;
+    border: 2px solid grey;
+}
+span{
+    margin-left: 15px;
+}
+.two{
+    background-color: bisque;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.three{
+ width: 100%;
+ height: 80vh;
+ background-color: tan;   
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.text{
+    background-color: burlywood;
+    width: 70%;
+
+}
+.fotos{
+    background-color: azure;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.four{
+width: 100%;
+height: 100vh;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.contenedor4-text{
+width: 50%;
+}
+.contenedor4-img{
+width: 80%;
+height: 50vh;
+}
+.contenedor4 h2{
+    font-size: 35%;
+}
+.contenedor4-text h2{
+    font-size: 48px;
+}
+.contenedor4-text a{
+    font-size: 18px;
+    background-color: red;
+    border-radius: 25px;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+}
+.contenedor4-text p{
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+
+.five{
+    background-color: bisque;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    position: relative;
+}
+.formulario{
+    width: 35%;
+    position: relative;
+   bottom: 10px;
+   background-color: aliceblue;
+}
+.item1{
+width: 96%;
+height: 45px;
+margin: 7px auto;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+
+.yo{
+    background-color: brown;
+}
